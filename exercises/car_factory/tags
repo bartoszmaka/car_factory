@@ -1,0 +1,27 @@
+#brand	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_spec.rb	/^  describe '#brand' do$/;"	d	language:RSpec
+#brands	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_park_spec.rb	/^  describe '#brands' do$/;"	d	language:RSpec
+#brands_stats	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_park_spec.rb	/^  describe '#brands_stats' do$/;"	d	language:RSpec
+#capacity	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_park_spec.rb	/^  describe '#capacity' do$/;"	d	language:RSpec
+#cars	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_park_spec.rb	/^  describe '#cars' do$/;"	d	language:RSpec
+#color_name	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_spec.rb	/^  describe '#color_name' do$/;"	d	language:RSpec
+#make_car	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory_spec.rb	/^  describe '#make_car' do$/;"	d	language:RSpec
+#make_cars	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory_spec.rb	/^  describe '#make_cars' do$/;"	d	language:RSpec
+#name	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory_spec.rb	/^  describe '#name' do$/;"	d	language:RSpec
+#places_left	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_park_spec.rb	/^  describe '#places_left' do$/;"	d	language:RSpec
+#receive	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_park_spec.rb	/^  describe '#receive' do$/;"	d	language:RSpec
+#retrieve	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_park_spec.rb	/^  describe '#retrieve' do$/;"	d	language:RSpec
+.new	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory_spec.rb	/^  describe '.new' do$/;"	d	language:RSpec
+.new	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_spec.rb	/^  describe '.new' do$/;"	d	language:RSpec
+Car	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car.rb	/^class Car$/;"	c	language:Ruby
+Car	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_spec.rb	/^RSpec.describe Car do$/;"	d	language:RSpec
+CarFactory	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory.rb	/^class CarFactory$/;"	c	language:Ruby
+CarFactory	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory_spec.rb	/^RSpec.describe CarFactory do$/;"	d	language:RSpec
+CarPark	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_park.rb	/^class CarPark$/;"	c	language:Ruby
+CarPark	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_park_spec.rb	/^RSpec.describe CarPark do$/;"	d	language:RSpec
+and three colors are available	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_spec.rb	/^      context 'and three colors are available' do$/;"	c	language:RSpec
+factory is created for multiple brands	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory_spec.rb	/^    context 'factory is created for multiple brands' do$/;"	c	language:RSpec
+factory is created for mutliple brands	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory_spec.rb	/^    context 'factory is created for mutliple brands' do$/;"	c	language:RSpec
+factory is created for one brand only	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory_spec.rb	/^    context 'factory is created for one brand only' do$/;"	c	language:RSpec
+when color is not provided	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_spec.rb	/^    context 'when color is not provided' do$/;"	c	language:RSpec
+when provided with configuration hash	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory_spec.rb	/^    context 'when provided with configuration hash' do$/;"	c	language:RSpec
+when provided with number	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory_spec.rb	/^    context 'when provided with number' do$/;"	c	language:RSpec
