@@ -18,10 +18,37 @@ CarFactory	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/ca
 CarFactory	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory_spec.rb	/^RSpec.describe CarFactory do$/;"	d	language:RSpec
 CarPark	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_park.rb	/^class CarPark$/;"	c	language:Ruby
 CarPark	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_park_spec.rb	/^RSpec.describe CarPark do$/;"	d	language:RSpec
+UnsupportedBrandException	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory.rb	/^  class UnsupportedBrandException < StandardError$/;"	c	language:Ruby	class:CarFactory
 and three colors are available	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_spec.rb	/^      context 'and three colors are available' do$/;"	c	language:RSpec
+brand_available?	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory.rb	/^  def brand_available?(brand)$/;"	f	language:Ruby	class:CarFactory
+brand_from_available_brands	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory.rb	/^  def brand_from_available_brands$/;"	f	language:Ruby	method:CarFactory.validate_given_brands
+brands	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_park.rb	/^  def brands$/;"	f	language:Ruby	class:CarPark
+brands_stats	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_park.rb	/^  def brands_stats$/;"	f	language:Ruby	class:CarPark
+check_if_brand_is_supported	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory.rb	/^  def check_if_brand_is_supported(brand)$/;"	f	language:Ruby	method:CarFactory.validate_given_brands
+check_if_brands_are_supported	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory.rb	/^  def check_if_brands_are_supported$/;"	f	language:Ruby	method:CarFactory.validate_given_brands
 factory is created for multiple brands	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory_spec.rb	/^    context 'factory is created for multiple brands' do$/;"	c	language:RSpec
 factory is created for mutliple brands	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory_spec.rb	/^    context 'factory is created for mutliple brands' do$/;"	c	language:RSpec
 factory is created for one brand only	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory_spec.rb	/^    context 'factory is created for one brand only' do$/;"	c	language:RSpec
+formatted_brand_names	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory.rb	/^  def formatted_brand_names$/;"	f	language:Ruby	method:CarFactory.validate_given_brands
+formatted_color_name	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car.rb	/^  def formatted_color_name(unformatted_data)$/;"	f	language:Ruby	class:Car
+initialize	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car.rb	/^  def initialize(brand, args={})$/;"	f	language:Ruby	class:Car
+initialize	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory.rb	/^  def initialize(factory_name, args = {})$/;"	f	language:Ruby	class:CarFactory
+initialize	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_park.rb	/^  def initialize(capacity)$/;"	f	language:Ruby	class:CarPark
+make_car	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory.rb	/^  def make_car(brand = @brands)$/;"	f	language:Ruby	class:CarFactory
+make_cars	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory.rb	/^  def make_cars(config)$/;"	f	language:Ruby	class:CarFactory
+make_cars_from_hash	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory.rb	/^  def make_cars_from_hash(config = {})$/;"	f	language:Ruby	class:CarFactory
+make_n_cars	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory.rb	/^  def make_n_cars(amount = 1, brand = nil)$/;"	f	language:Ruby	class:CarFactory
+name	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory.rb	/^  def name$/;"	f	language:Ruby	class:CarFactory
+park_car	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_park.rb	/^  def park_car(car)$/;"	f	language:Ruby	class:CarPark
+parse_color	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car.rb	/^  def parse_color(given_color)$/;"	f	language:Ruby	class:Car
+pick_color_from_avaible_colors	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car.rb	/^  def pick_color_from_avaible_colors$/;"	f	language:Ruby	class:Car
+places_left	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_park.rb	/^  def places_left$/;"	f	language:Ruby	class:CarPark
+receive	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_park.rb	/^  def receive(cars)$/;"	f	language:Ruby	class:CarPark
+retrieve	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_park.rb	/^  def retrieve(amount)$/;"	f	language:Ruby	class:CarPark
+tick_brands_counter	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory.rb	/^  def tick_brands_counter$/;"	f	language:Ruby	method:CarFactory.validate_given_brands
+tick_color_counter	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car.rb	/^  def tick_color_counter$/;"	f	language:Ruby	class:Car
+validate_cars_creation	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory.rb	/^  def validate_cars_creation(brand)$/;"	f	language:Ruby	class:CarFactory
+validate_given_brands	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory.rb	/^  def validate_given_brands(given_brands)$/;"	f	language:Ruby	class:CarFactory
 when color is not provided	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_spec.rb	/^    context 'when color is not provided' do$/;"	c	language:RSpec
 when provided with configuration hash	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory_spec.rb	/^    context 'when provided with configuration hash' do$/;"	c	language:RSpec
 when provided with number	/home/bartosz/projekty/recruitment-exercises/exercises/car_factory/car_factory_spec.rb	/^    context 'when provided with number' do$/;"	c	language:RSpec
