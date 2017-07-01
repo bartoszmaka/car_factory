@@ -1,5 +1,14 @@
-# recruitment-exercises
+Ruby: 2.4+ (feel free to use any ruby version you want)
 
-Please check out the exercises directory. The most important rule is not to fork or commit into this repository. The best way for submitting your work for review is pointing to your own github repo, where we can find the results.
+```
+rvm use 2.4.0@conundrum --create
+gem install rspec
+gem install require_all
+rspec <insert path to your specs here>
+```
 
-Please include the excercise description/specification in your solution.
+Usual tasks:
+
+- Write implementation so all tests are green
+- Focus on code quality/readability/simplicity
+- Do not modify tests (sample implementation was written, so test are 99.99% ok and implementable)
