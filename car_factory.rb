@@ -1,11 +1,10 @@
 require_relative 'car'
-require 'pry'
 
 class CarFactory
   class UnsupportedBrandException < StandardError
   end
 
-  @@SUPPORTED_BRANDS = %i[fiat lancia ford subaru]
+  SUPPORTED_BRANDS = %i[fiat lancia ford subaru].freeze
 
   def initialize(factory_name, args = {})
     @factory_name = factory_name
@@ -24,15 +23,10 @@ class CarFactory
 
   def make_car(brand = @brands)
     validate_given_brands(brand)
-    # brand = brand_from_available_brands if brand.nil?
     Car.new(brand)
   end
 
   private
-
-  def validate_cars_creation(brand)
-    return if brand.nil?
-  end
 
   def make_n_cars(amount = 1, brand = nil)
     created_cars = []
@@ -78,7 +72,7 @@ class CarFactory
   end
 
   def check_if_brand_is_supported(brand)
-    unless @@SUPPORTED_BRANDS.include? brand
+    unless SUPPORTED_BRANDS.include? brand
       raise UnsupportedBrandException.new("Brand not supported: '#{brand.capitalize}'")
     end
   end
