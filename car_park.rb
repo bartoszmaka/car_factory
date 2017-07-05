@@ -9,7 +9,7 @@ class CarPark
   end
 
   def places_left
-    @capacity - @cars.count
+    capacity - cars.count
   end
 
   def receive(cars)
@@ -23,12 +23,12 @@ class CarPark
   end
 
   def retrieve(amount)
-    @cars.pop(amount)
+    cars.pop(amount)
   end
 
   def brands
     found_brands = []
-    @cars.each do |car|
+    cars.each do |car|
       found_brands << car.brand unless found_brands.include? car.brand
     end
     found_brands
@@ -36,7 +36,7 @@ class CarPark
 
   def brands_stats
     stats = Hash.new(0)
-    @cars.each do |car|
+    cars.each do |car|
       stats[car.brand] += 1
     end
     stats
@@ -45,6 +45,6 @@ class CarPark
   private
 
   def park_car(car)
-    @cars << car if places_left.positive?
+    cars << car if places_left.positive?
   end
 end

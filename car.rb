@@ -26,6 +26,6 @@ class Car
   end
 
   def tick_color_counter
-    @@color_counter = (@@color_counter + 1) % AVAILABLE_COLORS.length
+    @@color_counter = @@color_counter.next % AVAILABLE_COLORS.length
   end
 end
